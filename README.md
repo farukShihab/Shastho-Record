@@ -4,16 +4,16 @@ A mobile-first progressive web app (PWA) for a prototype medical record system. 
 
 This repository is the **frontend only**. It talks to a separate Django REST Framework backend.
 
-- **Live demo:** TODO: add your deployed URL
-- **Backend repository:** TODO: add your backend repo URL
+- **Live demo:** https://shastho-record.vercel.app/login
+- **Backend repository:** https://www.pythonanywhere.com/
 
 ## Screenshots
 
-TODO: add 3 or 4 screenshots (patient timeline, upload, access screen, doctor review form), for example in a `docs/` folder:
+![Login Page](https://drive.google.com/file/d/1J0J9JRKBvFWoqmOY7JLdoXmDHF9DeqNe/view?usp=sharing)
+![Timeline](https://drive.google.com/file/d/1Avy2mKW4VsCxvDWcCsJ_qRKFSl-3Lab5/view?usp=sharing)
+![Image Upload](https://drive.google.com/file/d/1ZG__a6Yezp4BdAa1F6y_uporrscsQt6h/view?usp=sharing)
+![Access Grant](https://drive.google.com/file/d/1cOv_6okWNo9E1NTT51yjsYN6u05Agl_K/view?usp=sharing)
 
-```
-![Patient timeline](docs/timeline.png)
-```
 
 ## Features
 
