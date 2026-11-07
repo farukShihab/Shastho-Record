@@ -9,10 +9,10 @@ This repository is the **frontend only**. It talks to a separate Django REST Fra
 
 ## Screenshots
 
-![Login Page](https://drive.google.com/file/d/1J0J9JRKBvFWoqmOY7JLdoXmDHF9DeqNe/view?usp=sharing)
-![Timeline](https://drive.google.com/file/d/1Avy2mKW4VsCxvDWcCsJ_qRKFSl-3Lab5/view?usp=sharing)
-![Image Upload](https://drive.google.com/file/d/1ZG__a6Yezp4BdAa1F6y_uporrscsQt6h/view?usp=sharing)
-![Access Grant](https://drive.google.com/file/d/1cOv_6okWNo9E1NTT51yjsYN6u05Agl_K/view?usp=sharing)
+![Login page](docs/screenshots/login.png)
+![Patient timeline](docs/screenshots/timeline.png)
+![Image upload](docs/screenshots/upload.png)
+![Access grant](docs/screenshots/access.png)
 
 
 ## Features
