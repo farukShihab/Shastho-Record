@@ -42,6 +42,9 @@ This repository is the **frontend only**. It talks to a separate Django REST Fra
 **Permissions** are enforced by the backend, not just hidden in the UI. If a patient opens a doctor URL, they are redirected, and the API would return 403 anyway. Once access is revoked, the doctor can no longer load that patient's timeline.
 
 **Private images:** `<img>` tags can't send auth headers, so record images are fetched with the user's token and shown as blob URLs. Nothing private is cached by the service worker.
+> **Note:** the backend runs on a free hosting tier, so the first request after a period of inactivity may take a few seconds. If login seems slow, please wait a moment and retry.
+
+**Trying the PWA:** on the live demo, open the site on a phone (or Chrome desktop) and choose "Install app" / "Add to Home Screen". After one visit, the app shell opens offline with an offline banner.
 
 ## Tech stack
 
