@@ -5,7 +5,7 @@ A mobile-first progressive web app (PWA) for a prototype medical record system. 
 This repository is the **frontend only**. It talks to a separate Django REST Framework backend.
 
 - **Live demo:** https://shastho-record.vercel.app/login
-- **Backend repository:** https://www.pythonanywhere.com/
+- **Backend repository:** [https://www.pythonanywhere.com/](https://alifaruk.pythonanywhere.com)
 
 ## Screenshots
 
