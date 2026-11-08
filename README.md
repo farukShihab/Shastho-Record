@@ -32,6 +32,17 @@ This repository is the **frontend only**. It talks to a separate Django REST Fra
 - Installable PWA that opens offline, with an offline banner
 - Loading, empty and error states on every screen
 
+## How it works
+
+1. **Patient uploads a record.** From the Upload screen, the patient takes a photo or picks one from the gallery (JPEG/PNG/WebP, max 5 MB). It appears on their timeline as **Unverified**.
+2. **Patient grants a doctor access.** On the Access screen, the patient chooses which doctors may see their timeline. Access can be revoked at any time, and past grants are kept in a history list.
+3. **Doctor reviews and verifies.** A doctor sees only the patients who have granted them access. They open a patient's timeline, select a record, and fill in the review form (diagnosis, medications, visit date, notes). Submitting it marks the record as **Verified**.
+4. **Patient sees the result.** The timeline card now shows a verified badge with the doctor's name and clinic, plus the diagnosis and medications.
+
+**Permissions** are enforced by the backend, not just hidden in the UI. If a patient opens a doctor URL, they are redirected, and the API would return 403 anyway. Once access is revoked, the doctor can no longer load that patient's timeline.
+
+**Private images:** `<img>` tags can't send auth headers, so record images are fetched with the user's token and shown as blob URLs. Nothing private is cached by the service worker.
+
 ## Tech stack
 
 - React 19 + TypeScript, built with Vite
